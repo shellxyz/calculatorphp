@@ -1,0 +1,9 @@
+---
+applications:
+- name: calculatorphp
+  
+  memory: 128M
+  Buildpack: https://github.com/zendtech/zend-server-php-buildpack
+  domain: mybluemix.net
+  instances: 1
+  host: calculatorphp
